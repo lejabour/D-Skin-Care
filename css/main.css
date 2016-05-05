@@ -4,6 +4,15 @@ body {
 	position: relative;
 }
 
+a {
+	color: #666666;
+}
+
+a:hover {
+	color: #666666;
+}
+
+
 .navbar .nav > li > a{
 	color: #f48583;
 	font-size: 20px;
@@ -59,10 +68,10 @@ body {
 }
 
 .carousel-caption {
-	color: #8b5a1b;
+	color: #b08854;
 	font-size: 20px;
 	font-weight: normal;
-	top: 60px;
+	top: 50px;
 	left: -450px;
     bottom: auto;
 }
@@ -91,6 +100,17 @@ body {
 	max-width: 382px;
 	padding-bottom: 30px;
 	padding-right: 20px;
+    -webkit-filter: drop-shadow(7px 7px 12px rgba(0,0,0,0.5));
+}
+
+#studio h3 {
+	color: #ffffff;
+	font-size: 26px;
+}
+
+#studio h4 {
+	color: #8a8181;
+	font-size: 18px;
 }
 
 #services h2 {
@@ -101,8 +121,14 @@ body {
 	color: #f48583;
 }
 
+
 #contact h2 {
 	color: #ffffff;
+}
+
+#contact h3 {
+	color: #8a8181;
+	font-size: 26px;
 }
 
 .nav-contact {
@@ -117,11 +143,11 @@ body {
 	color: #000;
   	font-size: 18px;
   	padding-right: 10px;
+  	padding-left: 7px;
 }
 
 .contact-tag {
   	text-align: center;
-  	padding-top: 20px;
 	padding-top: 5px;
 	padding-bottom: 5px;
 }
@@ -142,8 +168,22 @@ body {
 	min-height: 650px;
 }
 
+.services-tabs {
+	padding-top: 15px;
+}
+
 .tab-pane {
 	padding-top: 15px;
+}
+
+.tab-content {
+	width: 65%;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    color: #f48583;
+    font-weight: bold;
+    background-color: white;
 }
 
 #products {
@@ -163,6 +203,16 @@ body {
 #contactmap {
 	padding-bottom: 50px;
 }
+
+.contact-address {
+	color: #ffffff;
+	font-size: 24px;
+}
+
+.contact-phone {
+	padding-top: 130px;
+}
+
 
 #footer {
 	background-color: #ffffff;
